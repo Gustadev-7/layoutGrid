@@ -28,7 +28,7 @@ figure{
     height: 120px;
     border-radius: 50%;
     margin-bottom: 16px;
-    margin-left: 60px;
+    align-self: center;
 }
 /*Configurando o texto da imagem*/
 figcaption{
