@@ -28,6 +28,7 @@ figure{
     height: 120px;
     border-radius: 50%;
     margin-bottom: 16px;
+    margin-left: 60px;
 }
 /*Configurando o texto da imagem*/
 figcaption{
@@ -51,4 +52,14 @@ article h3{
 }
 article p{
     line-height: 1.5;
+}
+/*Configurando a responsividade*/
+@media (max-width: 768px){
+    main{
+        grid-template-columns: 1fr;
+    }
+    figure{
+        width: 100;
+        padding: 20px;
+    }
 }
